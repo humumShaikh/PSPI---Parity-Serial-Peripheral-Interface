@@ -11,4 +11,4 @@
 
 ***BLOCK DIAGRAM VIEW***
 for better understanding
-<img width="1149" height="563" alt="image" src="https://github.com/user-attachments/assets/f5fd2a8e-ff30-40e9-af80-b121530c18f8" />
+<img width="1073" height="531" alt="image" src="https://github.com/user-attachments/assets/22806552-7d70-4bff-a905-7fe937c19990" />
