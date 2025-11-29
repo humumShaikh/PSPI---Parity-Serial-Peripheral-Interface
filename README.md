@@ -4,3 +4,4 @@
 - Added Acknowledgement Bit from Slave to Master
 - Error Checking
 - Retransmission
+- Tested for upto 12.5MHz on the Boolean Board (Spartan7)
