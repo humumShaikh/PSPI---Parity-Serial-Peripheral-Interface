@@ -1,3 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: CWIR3
+// Engineer: copperwire
+// Design Name: parity_gen
+// Module Name: parity_gen
+// Project Name: PSPI - Master
+// Target Devices: xc7s50csga324-1 (Boolean)
+// Description:  Parity generator and initiator for the PSPI Master , decides whether the parity will be added or not, if yes then inserts the parity bit based on the input
+// Dependencies: 
+// Revision 0.01 - File Created
+// Additional Comments:
+//////////////////////////////////////////////////////////////////////////////////
+
 module parity_gen(
     input wire run,
     input wire en,
