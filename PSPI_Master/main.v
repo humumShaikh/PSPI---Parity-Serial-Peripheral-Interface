@@ -1,20 +1,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: CWIR3
 // Engineer: copperwire
-// 
 // Design Name: main
 // Module Name: main
 // Project Name: PSPI - Master
 // Target Devices: xc7s50csga324-1 (Boolean)
-// Tool Versions: 
 // Description:    Top module for the PSPI Master 
-// 
-// Dependencies: 
-// 
-// Revision:
+// Dependencies: clk_gen , piso , sipo , parity_gen , demux
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
 //////////////////////////////////////////////////////////////////////////////////
 
 module main(
