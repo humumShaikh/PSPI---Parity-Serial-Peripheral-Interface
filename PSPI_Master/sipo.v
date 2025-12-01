@@ -1,3 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: CWIR3
+// Engineer: copperwire
+// Design Name: sipo
+// Module Name: sipo
+// Project Name: PSPI - Master
+// Target Devices: xc7s50csga324-1 (Boolean)
+// Description:    Serial In Parallel Out Shift Register for the PSPI Master , takes the data through the MISO pin serially and outputs it parallely on the onboard LEDs 
+// Dependencies: 
+// Revision 0.01 - File Created
+// Additional Comments:
+//////////////////////////////////////////////////////////////////////////////////
+
 module sipo(
     input wire clk,
     input wire din,
