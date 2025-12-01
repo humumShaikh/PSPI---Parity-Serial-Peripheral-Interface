@@ -1,7 +1,7 @@
 ### clk input is from the 100 MHz oscillator on Boolean board
 ###create_clock -period 10.000 -name gclk [get_ports clk_100MHz]
 ##set_property -dict {PACKAGE_PIN F14 IOSTANDARD LVCMOS33} [get_ports {clk}]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clkin_IBUF]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clkin_IBUF]  #Have to set the clock dedicated route false so that the default clock route is ignored and the clock coming externally through the PMOD connector from the master will be accepted for the operation on the slave side
 ### Set Bank 0 voltage
 ##set_property CFGBVS VCCO [current_design]
 ##set_property CONFIG_VOLTAGE 3.3 [current_design]
@@ -114,4 +114,5 @@ set_property -dict {PACKAGE_PIN E5 IOSTANDARD LVCMOS33} [get_ports {Pout[7]}]
 set_property -dict {PACKAGE_PIN B13 IOSTANDARD LVCMOS33} [get_ports {Sin}]
 set_property -dict {PACKAGE_PIN A13 IOSTANDARD LVCMOS33} [get_ports {Sout}]
 set_property -dict {PACKAGE_PIN B14 IOSTANDARD LVCMOS33} [get_ports {SS}]
+
 set_property -dict {PACKAGE_PIN A14 IOSTANDARD LVCMOS33} [get_ports {clkin}]
