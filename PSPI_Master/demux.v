@@ -1,3 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: CWIR3
+// Engineer: copperwire
+// Design Name: demux
+// Module Name: demux
+// Project Name: PSPI - Master
+// Target Devices: xc7s50csga324-1 (Boolean)
+// Description:    Demultiplexer for the PSPI Master , used for the slave select pins
+// Dependencies: 
+// Revision 0.01 - File Created
+// Additional Comments:
+//////////////////////////////////////////////////////////////////////////////////
+
 module demux(
     input wire [1:0] ss,
     input wire s,
