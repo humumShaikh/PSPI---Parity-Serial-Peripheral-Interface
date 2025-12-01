@@ -5,7 +5,7 @@
 // Module Name: clk_gen
 // Project Name: PSPI - Master
 // Target Devices: xc7s50csga324-1 (Boolean)
-// Description:    Clock generator for the PSPI Master 
+// Description:    Clock generator for the PSPI Master , converts the boards inbuilt 100 MHz clock to a slower clock for PSPI operation
 // Dependencies:
 // Revision 0.01 - File Created
 // Additional Comments:
