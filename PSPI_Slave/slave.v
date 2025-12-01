@@ -1,3 +1,16 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: CWIR3
+// Engineer: copperwire
+// Design Name: main_slave
+// Module Name: main_slave
+// Project Name: PSPI - Slave
+// Target Devices: xc7s50csga324-1 (Boolean)
+// Description:    Top module for the PSPI Slave 
+// Dependencies:
+// Revision 0.01 - File Created
+// Additional Comments:
+//////////////////////////////////////////////////////////////////////////////////
+
 module slave(
     input wire [7:0] Pin,
     output reg Sout,
