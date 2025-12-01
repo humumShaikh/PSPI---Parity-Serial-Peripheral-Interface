@@ -1,3 +1,15 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: CWIR3
+// Engineer: copperwire
+// Design Name: piso
+// Module Name: piso
+// Project Name: PSPI - Master
+// Target Devices: xc7s50csga324-1 (Boolean)
+// Description:  Parallel In Serial Out shift register for the PSPI Master  
+// Dependencies:
+// Revision 0.01 - File Created
+// Additional Comments:
+//////////////////////////////////////////////////////////////////////////////////
 
 module piso(
     input wire [7:0] din,
