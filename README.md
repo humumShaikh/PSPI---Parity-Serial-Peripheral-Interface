@@ -6,4 +6,4 @@
 - Retransmission
 - Tested for upto 12.5MHz on the Boolean Board (Spartan7)
 
-Note - The design might not work as expected in the simulation.
+Note - The design might not work as expected in the simulation but it works fine on hardware.
