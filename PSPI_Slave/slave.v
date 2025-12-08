@@ -6,7 +6,7 @@
 // Project Name: PSPI - Slave
 // Target Devices: xc7s50csga324-1 (Boolean)
 // Description:    Top module for the PSPI Slave 
-// Dependencies:
+// Dependencies:   None
 // Revision 0.01 - File Created
 // Additional Comments:
 //////////////////////////////////////////////////////////////////////////////////
