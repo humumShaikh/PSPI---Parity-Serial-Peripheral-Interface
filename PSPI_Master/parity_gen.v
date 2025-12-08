@@ -4,7 +4,7 @@
 // Design Name: parity_gen
 // Module Name: parity_gen
 // Project Name: PSPI - Master
-// Target Devices: xc7s50csga324-1 (Boolean)
+// Target Devices: xc7s50csga324-1 (Boolean Board by Real Digital)
 // Description:  Parity generator and initiator for the PSPI Master , decides whether the parity will be added or not, if yes then inserts the parity bit based on the input
 // Dependencies: 
 // Revision 0.01 - File Created
