@@ -8,7 +8,6 @@
 // Description:    Top module for the PSPI Slave 
 // Dependencies:   None
 // Revision 0.01 - File Created
-// Additional Comments:
 //////////////////////////////////////////////////////////////////////////////////
 
 module slave(
