@@ -6,7 +6,7 @@
 // Project Name: PSPI - Master
 // Target Devices: xc7s50csga324-1 (Boolean Board by Real Digital)
 // Description:  Parallel In Serial Out shift register for the PSPI Master  
-// Dependencies:
+// Dependencies: (clk_gen for clocking) 
 // Revision 0.01 - File Created
 // Additional Comments:
 //////////////////////////////////////////////////////////////////////////////////
