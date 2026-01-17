@@ -11,7 +11,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module slave(
-    input wire [7:0] Pin,
+    input wire [7:0] Pin,        //parallel Input
     output reg Sout,
     input wire Sin,
     output reg [7:0] Pout,
