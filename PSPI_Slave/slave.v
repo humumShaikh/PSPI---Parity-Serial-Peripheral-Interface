@@ -12,8 +12,8 @@
 
 module slave(
     input wire [7:0] Pin,        //parallel Input
-    output reg Sout,
-    input wire Sin,
+    output reg Sout,             //basically MISO
+    input wire Sin,              //basically MOSI
     output reg [7:0] Pout,
     input wire SS,
     input wire EN,
