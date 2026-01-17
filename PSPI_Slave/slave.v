@@ -16,7 +16,7 @@ module slave(
     input wire Sin,              //basically MOSI
     output reg [7:0] Pout,       //to check the input received
     input wire SS,               //slave select
-    input wire EN,
+    input wire EN,               //enable
     input wire clkin
     );
    
