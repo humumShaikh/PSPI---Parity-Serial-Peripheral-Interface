@@ -17,7 +17,7 @@ module piso(
     output reg dout
     );
    
-    reg signed [4:0] counter = 7;
+    reg signed [4:0] counter = 7;        //signed counter because the value is supposed to go below 0
     reg [7:0] data_reg = 0;
    
     initial dout = 0;
