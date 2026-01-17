@@ -30,7 +30,7 @@ module slave(
         Pout <= 0;
     end
    
-    always @(posedge clkin) begin
+    always @(posedge clkin) begin                    //shifting logic
         if((SS==0) && (EN==1)) begin
             if(tcounter>=0) begin
                 Sout = Pin[tcounter];
@@ -47,7 +47,7 @@ module slave(
         end
     end
    
-    always @(negedge clkin) begin
+    always @(negedge clkin) begin                    //sampling logic
         if((SS==0) && (EN==1)) begin
             if(rcounter>=0) begin
                 Pout[rcounter] = Sin;
