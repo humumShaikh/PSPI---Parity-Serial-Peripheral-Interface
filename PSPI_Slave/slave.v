@@ -14,8 +14,8 @@ module slave(
     input wire [7:0] Pin,        //parallel Input
     output reg Sout,             //basically MISO
     input wire Sin,              //basically MOSI
-    output reg [7:0] Pout,
-    input wire SS,
+    output reg [7:0] Pout,       //to check the input received
+    input wire SS,               //slave select
     input wire EN,
     input wire clkin
     );
