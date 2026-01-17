@@ -17,7 +17,7 @@ module slave(
     output reg [7:0] Pout,       //to check the input received
     input wire SS,               //slave select
     input wire EN,               //enable
-    input wire clkin
+    input wire clkin             //SCLK from master
     );
    
     reg signed [5:0] tcounter = 7;
