@@ -21,7 +21,7 @@ module clk_gen(
     );
  
     reg [3:0] tc = 0;
-    reg [25:0] max_count = 25_000_000;
+    reg [25:0] max_count = 25_000_000;            //change the max_count value to change the output frequency
     reg [25:0] counter = 0;
     reg [4:0] n = 0;
     reg set = 0;
