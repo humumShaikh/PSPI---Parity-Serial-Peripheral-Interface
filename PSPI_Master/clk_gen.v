@@ -16,7 +16,7 @@ module clk_gen(
     input wire clk_in,                                        //takes the board's onboard clock 
     output reg clk_out,                                        //outputs the desired clock frequency on SCLK
     output reg select,
-    input wire error_control,
+    input wire error_control,                                    //The error control signal coming from outside is responsible for the retransmission initiation
     output reg prun
     );
  
