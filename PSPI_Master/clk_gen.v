@@ -20,7 +20,7 @@ module clk_gen(
     output reg prun
     );
  
-    reg [3:0] tc = 0;
+    reg [3:0] tc = 0;                                //here the board we have used had a default board clock of 100MHz 
     reg [25:0] max_count = 25_000_000;            //change the max_count value to change the output frequency
     reg [25:0] counter = 0;
     reg [4:0] n = 0;
