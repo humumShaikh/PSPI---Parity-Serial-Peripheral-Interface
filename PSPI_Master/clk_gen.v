@@ -8,7 +8,7 @@
 // Description:    Clock generator for the PSPI Master , converts the boards inbuilt 100 MHz clock to a slower clock for PSPI operation
 // Dependencies:
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments:    The clock module is designed to only output 10 clock cycles that are required for a single transmission
 //////////////////////////////////////////////////////////////////////////////////
 
 module clk_gen(
