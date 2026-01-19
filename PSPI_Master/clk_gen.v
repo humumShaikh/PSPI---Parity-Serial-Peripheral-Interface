@@ -56,7 +56,7 @@ module clk_gen(
     end
    
     always @(posedge clk_in) begin
-        if(n>=20) n <= 0;
+        if(n>=20) n <= 0;                            //The n indicates the number of times the clock signal negates itself
         else if((set) && (n<=20)) begin
             if(counter==max_count) begin
                 clk_out <= ~clk_out;
