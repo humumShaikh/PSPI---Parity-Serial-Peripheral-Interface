@@ -47,7 +47,7 @@ module clk_gen(
                 select <= 1;
             end
             else if(error_control==1) begin
-                if(tc==3) begin
+                if(tc==3) begin                        //tc is the transmission count which decides the max number of retries
                     set <= 0;
                     select <= 1;
                 end
