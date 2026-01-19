@@ -13,8 +13,8 @@
 
 module clk_gen(
     input wire run,                                        //the clock starts outputting the signal once the run signal goes high
-    input wire clk_in,                        
-    output reg clk_out,
+    input wire clk_in,                                        //takes the board's onboard clock 
+    output reg clk_out,                                        //outputs the desired clock frequency on SCLK
     output reg select,
     input wire error_control,
     output reg prun
