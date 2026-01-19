@@ -12,8 +12,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module clk_gen(
-    input wire run,
-    input wire clk_in,
+    input wire run,                                        //the clock starts outputting the signal once the run signal goes high
+    input wire clk_in,                        
     output reg clk_out,
     output reg select,
     input wire error_control,
