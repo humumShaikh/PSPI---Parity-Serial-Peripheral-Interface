@@ -13,3 +13,8 @@
 
 ***Alternatively***
 1.  Create a vivado project and add all the design module files from here.
+2.  Add the block diagram file from the sources_1.zip to vivado to avoid manually setting up the block design.
+3.  Add the constraint file const_pynq to vivado.
+4.  Generate the bitstream and export it.
+5.  Create a platform project in vitis based on the generated hardware.
+6.  Write application project C program for running.
