@@ -31,8 +31,8 @@ module clk_gen
 );
 
     
-    reg [26:00] cCounter;
-    reg [26:00] maxCount;
+    reg [02:00] cCounter;
+    reg [02:00] maxCount;
     reg         clk_flag;
     reg [3:0]   tc;
     reg [4:0]   n;
@@ -41,7 +41,7 @@ module clk_gen
     begin
         clkout <= 0;
         cCounter <= 0;
-        maxCount <= 3;
+        maxCount <= 5;
         clk_flag <= 0;
         n <= 0;
         tc <= 0;
@@ -57,7 +57,7 @@ module clk_gen
         begin
             clkout <= 0;
             cCounter <= 0;
-            maxCount <= 3;
+            maxCount <= 5;
             clk_flag <= 0;
             n <= 0;
             tc <= 0;
