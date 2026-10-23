@@ -23,3 +23,12 @@
 4.  Generate the bitstream and export it.
 5.  Create a platform project in vitis based on the generated hardware.
 6.  Write application project C program for running.
+
+<br>
+<br>
+<br>
+
+***NOTE***
+The implemented PSPI communication runs at 20.83 MHz.
+
+This figure was achieved by setting the max_count variable = 5 in the clk_gen.v module in the design file.
