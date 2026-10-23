@@ -29,6 +29,7 @@
 <br>
 
 ***NOTE***
+<br>
 The implemented PSPI communication runs at 20.83 MHz.
 <br>
 The clock to the system is given directly by the board's default clock which runs at 125 MHz.
