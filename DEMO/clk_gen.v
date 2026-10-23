@@ -41,7 +41,7 @@ module clk_gen
     begin
         clkout <= 0;
         cCounter <= 0;
-        maxCount <= 5;
+        maxCount <= 4;
         clk_flag <= 0;
         n <= 0;
         tc <= 0;
@@ -57,7 +57,7 @@ module clk_gen
         begin
             clkout <= 0;
             cCounter <= 0;
-            maxCount <= 5;
+            maxCount <= 4;
             clk_flag <= 0;
             n <= 0;
             tc <= 0;
