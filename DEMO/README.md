@@ -10,7 +10,7 @@
 
 ***Implementation Diagram***
 
-<img width="1506" height="795" alt="image" src="https://github.com/user-attachments/assets/17f5cd17-7e95-4d71-b1ce-43913acca311" />
+<img width="1205" height="796" alt="image" src="https://github.com/user-attachments/assets/71e29bac-46bf-4461-aa79-68425eaa27fa" />
 
 <br>
 <br>
@@ -32,8 +32,8 @@
 <br>
 The implemented PSPI communication runs at 20.83 MHz.
 <br>
-The clock to the system is given directly by the board's default clock which runs at 125 MHz.
+The clock to the system is given by the clocking wizard outputting a 100 MHz clock.
 <br>
-This 125 MHz divide by 6 gives 20.83 MHz.
+This 100 MHz divide by 5 gives 20 MHz.
 <br>
 This figure was achieved by setting the max_count variable = 5 i.e 6 different counts in the clk_gen.v module in the design file.
