@@ -4,6 +4,9 @@
 2.  Create a vitis platform project and select the downloaded hardware file.
 3.  Create an application project based on this platform and copy the C program from the pspi_controller.c to run and test the PSPI working on the PYNQ board.
 
+<br>
+<br>
+<br>
 
 ***Implementation Diagram***
 
