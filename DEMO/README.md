@@ -34,6 +34,6 @@ The implemented PSPI communication runs at 20.83 MHz.
 <br>
 The clock to the system is given by the clocking wizard outputting a 100 MHz clock.
 <br>
-This 100 MHz divide by 5 gives 20 MHz.
+This 100 MHz divide by 10 (because max_count set at 4) gives 10 MHz
 <br>
-This figure was achieved by setting the max_count variable = 5 i.e 6 different counts in the clk_gen.v module in the design file.
+This figure was achieved by setting the max_count variable = 4 i.e 5 different counts in the clk_gen.v module in the design file.
